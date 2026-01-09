@@ -13,7 +13,7 @@ import gradio as gr
 load_dotenv()
 
 # Load dataset
-books = pd.read_csv("books_with_emotions.csv")
+books = pd.read_csv("Book_Recommendation_Engine/data/books_with_emotions.csv")
 books["large_thumbnail"] = np.where(
     books["thumbnail"].isna(),
     "cover-not-found.jpg",
@@ -21,7 +21,7 @@ books["large_thumbnail"] = np.where(
 )
 
 # Load raw text file
-raw_documents = TextLoader("tagged_description.txt", encoding='utf8').load()
+raw_documents = TextLoader("Book_Recommendation_Engine/tagged_description.txt", encoding='utf8').load()
 
 # Split text line by line
 text_splitter = RecursiveCharacterTextSplitter(
@@ -127,3 +127,4 @@ with gr.Blocks(theme=gr.themes.Glass()) as dashboard:
 
 if __name__ == "__main__":
     dashboard.launch()
+
