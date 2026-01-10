@@ -135,31 +135,31 @@ Dataset is sourced from Kaggle
 Downloaded using kagglehub
 Instructions for dataset setup are included in the notebooks
 
-##▶️ How to Run the Project
-###1️⃣ Clone the Repository
+## ▶️ How to Run the Project
+### 1️⃣ Clone the Repository
 
     git clone https://github.com/your-username/semantic-book-recommender.git
     cd semantic-book-recommender
-###2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 
     pip install -r requirements.txt
 
-###3️⃣ Set Up Environment Variables
+### 3️⃣ Set Up Environment Variables
 
     Create the .env file with your OpenAI and Hugging Face credentials.
 
-###4️⃣ Run Notebooks (in order)
+### 4️⃣ Run Notebooks (in order)
 
     data-exploration.ipynb
     vector-search.ipynb
     text-classification.ipynb
     sentiment-analysis.ipynb
 
-###5️⃣ Launch the Web App
+### 5️⃣ Launch the Web App
 
     python gradio-dashboard.py
 
-##🌟 Key Features
+## 🌟 Key Features
 
 🔍 Semantic search using vector embeddings
 🧠 Zero-shot classification with LLMs
@@ -167,7 +167,7 @@ Instructions for dataset setup are included in the notebooks
 ⚡ Fast vector similarity search with Chroma
 🖥️ Clean and interactive Gradio interface
 
-##📘 Course Credit
+## 📘 Course Credit
 
 This project follows the freeCodeCamp tutorial:
 Build a Semantic Book Recommender with LLMs – Full Course
