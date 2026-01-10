@@ -18,6 +18,13 @@ This system enables users to:
 
 ---
 
+<img width="1919" height="894" alt="image" src="https://github.com/user-attachments/assets/8bfa708a-5846-44d0-b9a8-a431b2cb90b8" />
+
+<img width="1919" height="924" alt="image" src="https://github.com/user-attachments/assets/493bdbe8-fde7-421c-8e85-47b2701173f3" />
+
+<img width="1919" height="924" alt="image" src="https://github.com/user-attachments/assets/9231aacc-e6c9-4f15-82ec-e313dffed57a" />
+
+
 ## 🧩 Project Components
 
 ### 1️⃣ Text Data Cleaning
